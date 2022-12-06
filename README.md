@@ -2,6 +2,35 @@
 
 This repo contains all the solution to the problems given during the language processor lab of S7
 
+## How to run?
+
+1. **Cycle 1**
+
+   ```sh
+        # Compile the C program
+        gcc <filename>.c
+
+        # Run the program
+        ./a.out     # For Linux
+        # OR
+        a.exe       # For Windows
+   ```
+
+2. **Cycle 2**
+
+   ```sh
+        # Compile the lex program
+        lex <filename>.l
+
+        # Compile the generated C file
+        gcc lex.yy.c
+
+        # Run the program
+        ./a.out     # For Linux
+        # OR
+        a.exe       # For Windows
+   ```
+
 | Program                                                                                                                  | Files                                                                                                                                                             | Documented? |
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [DFA to accept binary string with atleast two consecutive 0s](./cycle_1/consecutive_zeros/)                              | <ul><li>[`easy_solution.c`](./cycle_1/consecutive_zeros/easy_solution.c)</li><li>[`modular_solution.c`](./cycle_1/consecutive_zeros/modular_solution.c)</li></ul> | Yes         |
