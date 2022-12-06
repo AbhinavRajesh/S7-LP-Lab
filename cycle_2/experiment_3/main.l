@@ -62,9 +62,9 @@ int main(void) {
 
 /*
 O/P:
-    1. Total number of three digit numbers: 2
-    2. Total numbers in the file: 4
-    3. Total numbers identifiers starting with 'a': 1
-    4. Total numbers identifiers ending with 'b': 1
-    5. Total numbers of identifiers: 3
+    1. Total number of keywords: 14
+    2. Total number of loops: 1
+    3. Total number of arithmetic operators: 2
+    4. Total number of relational operators: 1
+    5. Total number of identifiers: 17
 */
