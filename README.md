@@ -7,28 +7,46 @@ This repo contains all the solution to the problems given during the language pr
 1. **Cycle 1**
 
    ```sh
-        # Compile the C program
-        gcc <filename>.c
+      # Compile the C program
+      gcc <filename>.c
 
-        # Run the program
-        ./a.out     # For Linux
-        # OR
-        a.exe       # For Windows
+      # Run the program
+      ./a.out     # For Linux
+      # OR
+      a.exe       # For Windows
    ```
 
 2. **Cycle 2**
 
    ```sh
-        # Compile the lex program
-        lex <filename>.l
+      # Compile the lex program
+      lex <filename>.l
 
-        # Compile the generated C file
-        gcc lex.yy.c
+      # Compile the generated C file
+      gcc lex.yy.c
 
-        # Run the program
-        ./a.out     # For Linux
-        # OR
-        a.exe       # For Windows
+      # Run the program
+      ./a.out     # For Linux
+      # OR
+      a.exe       # For Windows
+   ```
+
+3. **Cycle 3**
+
+   ```sh
+      # Compile the yacc program
+      yacc <filename>.y -d # -d flag to generate the header file "y.tab.h"
+
+      # Compile the lex program
+      lex <filename>.l
+
+      # Compile the generated C file
+      gcc lex.yy.c y.tab.c -w
+
+      # Run the program
+      ./a.out     # For Linux
+      # OR
+      a.exe       # For Windows
    ```
 
 | Program                                                                                                                  | Files                                                                                                                                                             | Documented? |
@@ -43,3 +61,5 @@ This repo contains all the solution to the problems given during the language pr
 | [Three digits, numbers, identifiers(starting with "a" or ending with "b")](./cycle_2/experiment_2/)                      | <ul><li>[`main.l`](./cycle_2/experiment_2/main.l)</li></ul>                                                                                                       | Yes         |
 | [Keywords, identifiers, loops, arithmetic and relatinal operators](./cycle_2/experiment_3/)                              | <ul><li>[`main.l`](./cycle_2/experiment_3/main.l)</li></ul>                                                                                                       | Yes         |
 | [Even, Odd, floating, negative and integers](./cycle_2/experiment_4/)                                                    | <ul><li>[`main.l`](./cycle_2/experiment_4/main.l)</li></ul>                                                                                                       | Yes         |
+| <h3>**Cycle 3**</h3>                                                                                                     |
+| [YACC program to accept L = a^nb^n](./cycle_3/experiment_1/)                                                             | <ul><li>[`main.l`](./cycle_3/experiment_1/main.l)</li><li>[`main.y`](./cycle_3/experiment_1/main.y)</li></ul>                                                     | Yes         |
