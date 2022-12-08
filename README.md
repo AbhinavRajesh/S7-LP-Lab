@@ -2,6 +2,21 @@
 
 This repo contains all the solution to the problems given during the language processor lab of S7
 
+## How to install lex and yacc?
+
+1. Lex installation
+
+   ```sh
+   # Linux or Windows WSL
+   sudo apt-get install flex
+   ```
+
+2. YACC installation
+   ```sh
+   # Linux or Windows WSL
+   sudo apt-get install bison
+   ```
+
 ## How to run?
 
 1. **Cycle 1**
