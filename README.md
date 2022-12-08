@@ -65,3 +65,19 @@ This repo contains all the solution to the problems given during the language pr
 | [YACC program to accept L = a^nb^n](./cycle_3/experiment_1/)                                                             | <ul><li>[`main.l`](./cycle_3/experiment_1/main.l)</li><li>[`main.y`](./cycle_3/experiment_1/main.y)</li></ul>                                                     | Not really  |
 | [YACC program to implement IF-THEN-ELSE](./cycle_3/experiment_2/)                                                        | <ul><li>[`main.l`](./cycle_3/experiment_2/main.l)</li><li>[`main.y`](./cycle_3/experiment_2/main.y)</li></ul>                                                     | Not really  |
 | [YACC program to validate an arithmetic expression](./cycle_3/experiment_3/)                                             | <ul><li>[`main.l`](./cycle_3/experiment_3/main.l)</li><li>[`main.y`](./cycle_3/experiment_3/main.y)</li></ul>                                                     | Not really  |
+
+## Internal questions
+
+1. Implement a DFA which accepts binary strings starting with 10 and ending with 01
+2. Implement a DFA which accepts the binary string either starting and ending with '0' or starting and ending with '1'.
+3. Implement a DFA which accepts binary strings containing '101' or '010' as a substring.
+4. DFA to accept 1\*0 + 0\*1
+5. DFA to accept ab\* + a\*b + c
+
+## External questions
+
+1. Lex program to read a text file and display counts of
+   - Words containing exactly one 'a'
+   - Words without a's and whose length is equal to 5
+   - Numbers with 4 digits
+   - Strings containing 'bbb' as a substring
